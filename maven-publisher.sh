@@ -1,13 +1,14 @@
 #!/bin/bash
 
-# GROUP_ID="[YOUR_GROUP_ID]"
-# ARTIFACT_ID="[YOUR_ARTIFACT_ID]"
-# GITHUB_OWNER="[GITHUB_OWNER]"
-# GITHUB_REPO="[GITHUB_REPOSITORY_NAME]"
-# VERSION=[ARTIFACT_VERSION]
-# FILE=[PATH_TO_ARTIFACT]
-# PACKAGING=[aar|jar]
-# POM=[PATH_TO_POM_XML] (optional)
+GROUP_ID="nuvoola-auto-test"
+ ARTIFACT_ID="nuvoola-uiauto"
+ GITHUB_OWNER="nuvoola"
+ GITHUB_REPO="nuv-mvn-test-packages"
+ VERSION=1.0
+ # Update FILE with actual.
+ # FILE=/home/murali/workspace/nuvoola-uiauto/target/nuvoola-uiauto-1.0.jar
+ PACKAGING=jar
+ POM=/home/murali/workspace/nuvoola-uiauto/pom.xml
 #
 # Leave POM empty to use default.
 # You can use POM to describe dependencies of your artifact.
